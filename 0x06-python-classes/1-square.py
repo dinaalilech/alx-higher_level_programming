@@ -1,9 +1,14 @@
 #!/usr/bin/python3
+"""Square class"""
+
 
 class Square:
-    def _init_(slef, size):
-
-        """this is my first class in python
-        CLasses
-        Objects"""
-        self._size = size
+    """defines a square based on size
+    Attributes:
+        __size (int): size of square class
+    """
+    def __init__(self, size):
+        """instantiates the square object
+        Args:
+            size (int): size of square object"""
+        self.__size = size
