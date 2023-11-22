@@ -1,7 +1,6 @@
-#!/bin/bash/python3
+#!/usr/bin/python3
+"""Square class"""
 
-class Square = __import__('0-square').Square
 
-my_square = Square()
-print(type(my_square))
-print(my_square.__dict__)
+class Square:
+    """empty class that defines a square"""
